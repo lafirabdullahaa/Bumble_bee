@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(q1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.booking-form-box{
+    max-width: 400px;
+    width: 500px;
+    height: 540px;
+    border-radius: 1rem;
+    margin: 5% auto 0;
+    background:rgb(42, 43, 53);
+    
+}
+
+.booking-form.radio-btn{
+    margin: 0 20px;
+
+}
+
+
+.booking-form.radio-btn .btn{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+    font-size: 25px;
+    border-color: #d9d9d9;
+    background: #9b59b6;
+}
+
+.radio-btn .btn::after{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+     display: inline-block;
+     border: 3px solid #fff;
+     visibility: visible;
+     border-radius: 50%;
+
+}
+
+.radio-btn .btn:checked::after{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+
+.radio-btn span{
+    
+    color: #fff;
+    margin-right: 54px;
+    font-size: 16px;
+   
+    
+}
+
+.booking-form{
+    padding: 0 20px 20px;
+}
+
+.booking-form label{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 19px;
+    color: #fff;
+
+}
+
+.booking-form label:hover{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 21px;
+    color: rgb(59, 121, 192);
+
+}
+
+input::placeholder{
+    color: #fff !important;
+}
+
+.input-grp{
+    width: 151px;
+    display: inline-block;
+}
+
+.form-control{
+
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-width: 2px;
+    transition: all 0.5s ease;
+    
+}
+
+.select-date::-webkit-inner-spin-button,
+.select-date::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.select-date::-webkit-calendar-picker-indicator{
+    background: transparent !important;
+}
+
+.custom-select{
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    box-shadow: none;
+    border-radius: 0;
+    background: transparent;
+}
+
+.custom-select option{
+    color: #333;
+}
+
+.flight{
+   
+
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background:linear-gradient(135deg,#f50404,#030016);
+}
+
+.flight:hover{
+    background:linear-gradient(-135deg,#e72c2c,#1e2ce9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
